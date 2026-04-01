@@ -661,6 +661,12 @@ export interface UIConfigInterface extends CommonUIConfigInterface<FeatureConfig
         enableLegacyFlows: boolean;
     };
     /**
+     * In-flow extension configurations.
+     */
+    inFlowExtension: {
+        enabled: boolean;
+    };
+    /**
      * Enable legacy session bound token behaviour.
      */
     enableLegacySessionBoundTokenBehaviour: boolean;

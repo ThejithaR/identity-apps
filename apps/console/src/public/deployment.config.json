@@ -1925,6 +1925,9 @@
         "flowExecution": {
             "enableLegacyFlows": false
         },
+        "inFlowExtension": {
+            "enabled": true
+        },
         "governanceConnectors": {
             "loginAttempts": {
                 "disabledFeatures": []
